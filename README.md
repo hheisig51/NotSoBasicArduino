@@ -55,9 +55,17 @@ Boom! Now, you have the code setup.
 
 [Look, you give me a dollar, I give you the link to the code. No questions asked.](https://create.arduino.cc/editor/hheisig51/e8faace7-f646-4134-b6a5-62a50cc688a8/preview)
 
-[If you're feeling extra funky, here's the .ino file](placeholder)
+[If you're feeling extra funky, here's the .ino file](https://raw.githubusercontent.com/hheisig51/NotSoBasicArduino/main/Code/Fade_2_LED.ino)
 
 ### Images
+
+Here's the .svg file I made in Adobe Illustrator, which took me about 3 hours or so.
+<img src="https://raw.githubusercontent.com/hheisig51/NotSoBasicArduino/main/Images/Fade%20(2%20LED's).svg" width=500></img>
+
+Here's a blurry .png made from Autodesk Tinkercad's Circuit design tool. Took me about an hour.
+<img src="https://raw.githubusercontent.com/hheisig51/NotSoBasicArduino/main/Images/Fade%202%20Led's.png" width=500></img>
+
+Be the judge of what you like. (:
 
 ### Reflection
 
