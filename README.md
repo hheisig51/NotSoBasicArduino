@@ -71,6 +71,20 @@ Be the judge of what you like. (:
 
 Honestly, the hardest parts of this were the modifications I made. Learning how to stray off the path, and fix problems I made myself, that was very important to learn. If you're reading this, and want to modify something like that, I really recomend just saying the step-by-step out loud. The devil is in the details, and the proof is in the pudding. It may sound rather simple and even slightly dumb, but so is adding a second LED and making it fade. My school email is [hheisig51@charlottesvilleschools.org](mailto:hheisig51@charlottesvilleschools.org) if you would like to discuss this. 
 
+## Variable Blink
+
+### Description & Code
+
+Alright, time to get this variable blink down. Once again, I have my board setup with 2 LED's, so I'm showing you how to do 2 LED's. We're gonna take a quick little shortcut, and borrow our [LED_Fade code](https://github.com/hheisig51/NotSoBasicArduino/edit/main/README.md#L56)
+### Evidence
+link goes here
+
+### Images
+draw it yourself, take a picture, make a fritzing, whatever you want to EFFECTIVELY communicate how its put together.
+
+### Reflection
+
+
 ## HelloFunctions
 
 ### Description & Code
