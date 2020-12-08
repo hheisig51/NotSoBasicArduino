@@ -60,9 +60,11 @@ Boom! Now, you have the code setup.
 ### Images
 
 Here's the .svg file I made in Adobe Illustrator, which took me about 3 hours or so.
+
 <img src="https://raw.githubusercontent.com/hheisig51/NotSoBasicArduino/main/Images/Fade%20(2%20LED's).svg" width=500></img>
 
 Here's a blurry .png made from Autodesk Tinkercad's Circuit design tool. Took me about an hour.
+
 <img src="https://raw.githubusercontent.com/hheisig51/NotSoBasicArduino/main/Images/Fade%202%20Led's.png" width=500></img>
 
 Be the judge of what you like. (:
@@ -79,8 +81,9 @@ Alright, time to get this variable blink down. Once again, I have my board setup
 
 Setting up all the ```int``` is easier this time, only 2:
 ```
-int dely = 0; // set's time for delay when blinking on and off
-int delayVar = -10; // Sneaky little thing, we'll use this later for some tricks with counting and math.
+int dely = 0; // Sets time for delay when blinking on and off.
+int delayVar = -10; // For counting up our speed. Dumb math does dumb thing.
+int messagePrint = 0; // Toggle that sets off a figurative nuclear explosion. Will be used once maximum speed is reached.
 ````
 
 ```void setup()``` is ***almost* the EXACT SAME.** START YOUR SERIAL MONITOR, or I take away your Arduino priveleges. Just copy it from Fade, but make sure you write the LED numbers, instead of the ```led1``` and ```led2``` variables.
@@ -102,6 +105,10 @@ Next, we just set up a standard blink function (on both LED's!!), while using de
   delay(dely);
 ```
 
+What's a person's best friend? **```if``` and ```else``` statements!**
+
+Time to set those puppies up!
+First, the thing that adds to DelayVar, speeding up the delay. This is where we use the ++.
 
 ### Evidence
 link goes here
