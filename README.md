@@ -75,7 +75,34 @@ Honestly, the hardest parts of this were the modifications I made. Learning how 
 
 ### Description & Code
 
-Alright, time to get this variable blink down. Once again, I have my board setup with 2 LED's, so I'm showing you how to do 2 LED's. We're gonna take a quick little shortcut, and borrow our [LED_Fade code](https://github.com/hheisig51/NotSoBasicArduino/edit/main/README.md#L56)
+Alright, time to get this variable blink down. Once again, I have my board setup with 2 LED's, so I'm showing you how to do 2 LED's. We're gonna take a quick little shortcut, and reference/borrow bits off of our [LED_Fade code](https://github.com/hheisig51/NotSoBasicArduino/blob/main/README.md#evidence)
+
+Setting up all the ```int``` is easier this time, only 2:
+```
+int dely = 0; // set's time for delay when blinking on and off
+int delayVar = -10; // Sneaky little thing, we'll use this later for some tricks with counting and math.
+````
+
+```void setup()``` is ***almost* the EXACT SAME.** START YOUR SERIAL MONITOR, or I take away your Arduino priveleges. Just copy it from Fade, but make sure you write the LED numbers, instead of the ```led1``` and ```led2``` variables.
+
+```void loop()``` is **different**, which really isn't that hard to imagine. We first set up dely's relationship to delayVar, and I really don't know how to make my joke here.
+
+```  int dely = delayVar * -100;```
+
+*Hint: we'll use ++ later to make things easier. Do you know what we're doing?*
+
+Next, we just set up a standard blink function (on both LED's!!), while using dely as our delay amount. Literally just borrow the code from the [Offical Arduino Blink tutorial](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink), and modify it to use the 2 LED pins you're using, plus put dely in as your delay.
+
+```
+  digitalWrite(9, HIGH);
+  digitalWrite(11, HIGH);
+  delay(dely);
+  digitalWrite(9, LOW);
+  digitalWrite(11, LOW);
+  delay(dely);
+```
+
+
 ### Evidence
 link goes here
 
