@@ -176,12 +176,13 @@ Talk about how the code works, here....
 
 [Link to the code, all nice and lit up for the Holidays](https://create.arduino.cc/editor/hheisig51/77ee47c7-8bb7-475f-99c2-7601ce5c02c6/preview)
 
-"I would never claim to be no Ray Benzino
-
-An 83-year-old fake Pacino,
-
-[Here's the link to my .ino](https://raw.githubusercontent.com/hheisig51/NotSoBasicArduino/main/Code/Photoresistor.ino)"
-- Eminem, *Nail in the Coffin*, 2002 (I don't know, I just needed something to rhyme with ino)
+> "I would never claim to be no Ray Benzino
+>
+> An 83-year-old fake Pacino,
+>
+> [Here's the link to my .ino](https://raw.githubusercontent.com/hheisig51/NotSoBasicArduino/main/Code/Photoresistor.ino)"
+>
+> - Eminem, *Nail in the Coffin*, 2002 (I don't know, I just needed something to rhyme with ino)
 
 ### Images
 <img src="https://github.com/hheisig51/NotSoBasicArduino/blob/main/Images/Photoresistor.png?raw=true" width=500></img>
