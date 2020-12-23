@@ -7,6 +7,7 @@
 * [LED_Fade](#LED_Fade)
 * [HelloFunctions](#HelloFunctions)
 * [NewPing](#NewPing)
+* [Photoresistor](#Photoresistor)
 ---
 
 ## LED_Fade
@@ -159,3 +160,22 @@ draw it yourself, take a picture, make a fritzing, whatever you want to EFFECTIV
 
 ### Reflection
 
+## Photoresistor
+
+### Description & Code
+Description goes here
+
+Here's how you make code look like code:
+
+```C++
+Code goes here
+```
+Talk about how the code works, here....
+
+### Evidence
+link goes here
+
+### Images
+<img src="https://github.com/hheisig51/NotSoBasicArduino/blob/main/Images/Photoresistor.png?raw=true" width=500></img>
+
+### Reflection
