@@ -163,14 +163,27 @@ draw it yourself, take a picture, make a fritzing, whatever you want to EFFECTIV
 ## Photoresistor
 
 ### Description & Code
-Description goes here
 
-Here's how you make code look like code:
+ Hi everybody! Welcome back to the show! Today, we're gonna set up a photoresistor night light! The photoresistor lets a certain amount of electricity through based on the amount of light it detects, and we're going to measure that. We're going to set it up to turn on the LED once the light level dips below a certain point!
 
-```C++
-Code goes here
+
+ So, let's wire up the photoresistor. Follow the diagram I've put below:
+ 
+<img src="https://github.com/hheisig51/NotSoBasicArduino/blob/main/Images/SoloPhotoresistor.png?raw=true" width=250></img>
+
+Now you've done that, do you see the little wire going to A0? That's what we're going to use to measure the photoresistor's signal. Let's code that. I will include explanations in the comments of the code below
+
+Setup:
 ```
-Talk about how the code works, here....
+int lightlevel = 0;  // This will be what we write to from A0.
+
+void setup() {
+  pinMode(9, OUTPUT);  // This will be for our LED later
+  Serial.begin(9600);  // Starts serial monitor. ALWAYS START YOUR SERIAL MONITOR
+}
+```
+
+Now, let's go back to wiring up our LED. There's an [diagram below](#Images) with the full wiring. Look up to above for other examples of LED wiring. It's super simple.
 
 ### Evidence
 
