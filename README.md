@@ -223,8 +223,8 @@ Now, all the wiring and code is in place! Test it to make sure it works! Now tes
 
 Honestly, it's just flowing with what you remember that really helps here. I've wired an LED dozens of times, I've started and printed to the serial monitor much more than that. Wiring the photoresistor was just following a diagram. You don't need to reinvent the wheel each time you do something, just keep rolling it down the hill. This seems cheesy and anti-climatic, but it's true. What's the saying? Oh yeah:
 
-> ""You miss 100% of the shots you don't shoot."
+> You miss 100% of the shots you don't take.
 >
->      - Wayne Gretzky"
+>      - Wayne Gretzky
 >
 >            - Michael Scott
