@@ -183,7 +183,7 @@ void setup() {
 }
 ```
 
-Now, let's go back to wiring up our LED. There's an [diagram below](#Images) with the full wiring. Look up to above for other examples of LED wiring. It's super simple.
+Now, let's go back to wiring up our LED. There's an [diagram below](#Images-4) with the full wiring. Look up to above for other examples of LED wiring. It's super simple.
 
 ### Evidence
 
