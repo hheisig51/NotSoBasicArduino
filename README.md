@@ -185,6 +185,23 @@ void setup() {
 
 Now, let's go back to wiring up our LED. There's an [diagram below](#Images-4) with the full wiring. Look up to above for other examples of LED wiring. It's super simple.
 
+Code time! ```void loop()``` time! Below, we will setup the ```lightlevel``` integer (from earlier) to read from the A0 pin. From there, we measure it and turn on the LED.
+
+```
+void loop() {
+  lightlevel = analogRead(A0);        // Takes A0 and writes it to lightlevel
+  delay(500);                         // Makes sure we're not just spamming the serial monitor
+  Serial.print("Light Level: \t");    
+  Serial.println(lightlevel);         //
+  if (lightlevel <= 940) {
+    digitalWrite(9, HIGH);
+  }
+  else if (lightlevel > 940) {
+    digitalWrite(9, LOW);
+  }
+}
+```
+
 ### Evidence
 
 [Link to the code, all nice and lit up for the Holidays](https://create.arduino.cc/editor/hheisig51/77ee47c7-8bb7-475f-99c2-7601ce5c02c6/preview)
