@@ -192,15 +192,17 @@ void loop() {
   lightlevel = analogRead(A0);        // Takes A0 and writes it to lightlevel
   delay(500);                         // Makes sure we're not just spamming the serial monitor
   Serial.print("Light Level: \t");    
-  Serial.println(lightlevel);         //
-  if (lightlevel <= 940) {
-    digitalWrite(9, HIGH);
+  Serial.println(lightlevel);         // These two lines write the light level to the serial monitor
+  if (lightlevel <= 940) {            // If the light level is equal to or less than 940. You can tweak this to your light levels.
+    digitalWrite(9, HIGH);            // Turns the LED on
   }
-  else if (lightlevel > 940) {
-    digitalWrite(9, LOW);
+  else if (lightlevel > 940) {        // Pretty self explanatory! When it's more than 940, it
+    digitalWrite(9, LOW);             // Turns the LED off
   }
 }
 ```
+
+Now, all the wiring and code is in place! Test it to make sure it works! Now test the nightlight.
 
 ### Evidence
 
