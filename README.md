@@ -111,6 +111,28 @@ What's a person's best friend? **```if``` and ```else``` statements!**
 Time to set those puppies up!
 First, the thing that adds to DelayVar, speeding up the delay. This is where we use the ++.
 
+```
+ if (delayVar < -1) {
+    Serial.println(dely);
+    delayVar++;
+  }
+```
+
+This ```if``` statement is what counts up the delayVar, thus making the delay/```dely``` faster and faster! We're gonna be going from -10 to -1 with this, aka 1000 ms to 100 ms.
+
+```
+ else if (delayVar == -1 && messagePrint == 0) {
+    Serial.println("Reached fastest speed!");
+    Serial.end();
+    messagePrint++;
+  }
+```
+*I'm going to be 100% honest and frank, I never use ```else``` statements. I've only used ```else if```.*
+
+This ```else if``` statement basically let's us know the LED has reached maximum speed, then self destructs the serial monitor. Nothing more gets printed, nada.
+
+Now, you're done! Test it to see if it works! Please use this annoying, flashing light responsibly.
+
 ### Evidence
 link goes here
 
@@ -119,6 +141,7 @@ draw it yourself, take a picture, make a fritzing, whatever you want to EFFECTIV
 
 ### Reflection
 
+Reflect like the Narcissus you are.
 
 ## HelloFunctions
 
