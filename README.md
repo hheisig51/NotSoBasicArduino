@@ -169,7 +169,7 @@ Talk about how the code works, here....
 link goes here
 
 ### Images
-draw it yourself, take a picture, make a fritzing, whatever you want to EFFECTIVELY communicate how its put together.
+<img src="https://github.com/hheisig51/NotSoBasicArduino/blob/main/Images/Button.png?raw=true" width=500></img>
 
 ### Reflection
 
