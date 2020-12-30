@@ -80,6 +80,8 @@ Honestly, the hardest parts of this were the modifications I made. Learning how 
 
 Alright, time to get this variable blink down. Once again, I have my board setup with 2 LED's, so I'm showing you how to do 2 LED's. We're gonna take a quick little shortcut, and reference/borrow bits off of our [LED_Fade code](https://github.com/hheisig51/NotSoBasicArduino/blob/main/README.md#evidence)
 
+**Just to say it again, the board is setup the EXACT same as the Fade with 2 LED's above.**
+
 Setting up all the ```int``` is easier this time, only 2:
 ```
 int dely = 0; // Sets time for delay when blinking on and off.
