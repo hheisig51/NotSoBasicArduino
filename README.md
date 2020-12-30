@@ -58,7 +58,7 @@ Boom! Now, you have the code setup.
 
 [Look, you give me a dollar, I give you the link to the code. No questions asked.](https://create.arduino.cc/editor/hheisig51/e8faace7-f646-4134-b6a5-62a50cc688a8/preview)
 
-[If you're feeling extra funky, here's the .ino file](https://raw.githubusercontent.com/hheisig51/NotSoBasicArduino/main/Code/Fade_2_LED.ino)
+[If you're feeling extra funky, here's the .ino file](https://githubusercontent.com/hheisig51/NotSoBasicArduino/main/Code/Fade_2_LED.ino)
 
 ### Images
 
