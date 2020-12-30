@@ -136,7 +136,9 @@ This ```else if``` statement basically let's us know the LED has reached maximum
 Now, you're done! Test it to see if it works! Please use this annoying, flashing light responsibly.
 
 ### Evidence
-link goes here
+[A properly formatted link to the code, first try? It's a miracle!](https://create.arduino.cc/editor/hheisig51/ebbdf36b-1cd9-4a06-9bf8-108cb6cad2d7/preview)
+
+[http://ardu.ino (Link to the .ino file)](https://github.com/hheisig51/NotSoBasicArduino/blob/main/Code/Variable_Blink_2_LED.ino)
 
 ### Images
 draw it yourself, take a picture, make a fritzing, whatever you want to EFFECTIVELY communicate how its put together.
@@ -237,7 +239,7 @@ Now, all the wiring and code is in place! Test it to make sure it works! Now tes
 >
 > An 83-year-old fake Pacino,
 >
-> [Here's the link to my .ino](https://raw.githubusercontent.com/hheisig51/NotSoBasicArduino/main/Code/Photoresistor.ino)"
+> [Here's the link to my .ino](https://githubusercontent.com/hheisig51/NotSoBasicArduino/main/Code/Photoresistor.ino)"
 >
 > - Eminem, *Nail in the Coffin*, 2002 (I don't know, I just needed something to rhyme with ino)
 
