@@ -141,7 +141,7 @@ Now, you're done! Test it to see if it works! Please use this annoying, flashing
 [http://ardu.ino (Link to the .ino file)](https://github.com/hheisig51/NotSoBasicArduino/blob/main/Code/Variable_Blink_2_LED.ino)
 
 ### Images
-draw it yourself, take a picture, make a fritzing, whatever you want to EFFECTIVELY communicate how its put together.
+<img src="https://github.com/hheisig51/NotSoBasicArduino/blob/main/Images/Variable%20Blink%202%20LED's.png?raw=true" width=500></img>
 
 ### Reflection
 
