@@ -146,7 +146,11 @@ Now, you're done! Test it to see if it works! Please use this annoying, flashing
 
 ### Reflection
 
-Reflect like the Narcissus you are.
+The [official Arduino Reference](https://www.arduino.cc/reference/en/) and [official Arduino Tutorials](https://www.arduino.cc/en/Tutorial/HomePage) (More specificlly, the [Built-In Tutorials](https://www.arduino.cc/en/Tutorial/BuiltInExamples)). In fact, the whole [entire arduino.cc site](arduino.cc) is so entirely useful.
+
+The internet itself is such a vast resource, and I'm pretty I spend almost a quarter of my time perusing resources. It's so interesting, and just informing to look at. There's no structure, no barriers, just pure streams of information. It's amazing, yet also definitely reminds me why I like having class.
+
+When in doubt, look it up, and figure it out.
 
 ## HelloFunctions
 
