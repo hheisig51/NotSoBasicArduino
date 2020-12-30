@@ -267,7 +267,7 @@ Now, all the wiring and code is in place! Test it to make sure it works! Now tes
 >
 > An 83-year-old fake Pacino,
 >
-> [Here's the link to my .ino](https://githubusercontent.com/hheisig51/NotSoBasicArduino/main/Code/Photoresistor.ino)"
+> [Here's the link to my .ino](https://github.com/hheisig51/NotSoBasicArduino/blob/main/Code/Photoresistor.ino)"
 >
 > - Eminem, *Nail in the Coffin*, 2002 (I don't know, I just needed something to rhyme with ino)
 
