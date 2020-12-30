@@ -1,0 +1,1 @@
+/*  Photoresistor setup*/int lightlevel = 0;void setup() {  pinMode(9, OUTPUT);  Serial.begin(9600);}void loop() {  lightlevel = analogRead(A0);  delay(500);  Serial.print("Light Level: \t");  Serial.println(lightlevel);  if (lightlevel <= 940) {    digitalWrite(9, HIGH);  }  else if (lightlevel > 940) {    digitalWrite(9, LOW);  }}
