@@ -80,7 +80,7 @@ Honestly, the hardest parts of this were the modifications I made. Learning how 
 
 ### Description & Code
 
-Alright, time to get this variable blink down. Once again, I have my board setup with 2 LED's, so I'm showing you how to do 2 LED's. We're gonna take a quick little shortcut, and reference/borrow bits off of our [LED_Fade code](https://github.com/hheisig51/NotSoBasicArduino/blob/main/README.md#evidence)
+Alright, time to get this variable blink down. Once again, I have my board setup with 2 LED's, so I'm showing you how to do 2 LED's. We're gonna take a quick little shortcut, and reference/borrow bits off of our [LED_Fade code](https://github.com/hheisig51/NotSoBasicArduino/blob/main/README.md#evidence).
 
 **Just to say it again, the board is setup the EXACT same as the Fade with 2 LED's above.**
 
@@ -159,7 +159,28 @@ When in doubt, look it up, and figure it out.
 
 Alright, let's set up a button! We will use this button to trigger a variable blink (as seen [above](#Variable_Blink)), and reset it when the button is released.
 
+This is highly based off of the Variable Blink code, so we're actually gonna start by copying the [code from it](#evidence-1).
 
+First, let's add on to our existing variables/integers of ```dely```,```delayVar```, and ```messagePrint```. We're gonna add something for declaring the LED pin and button pin, just to make things easier. Additionally, we're gonna add a toggle for the button's state, to be able to trigger the variable blink
+
+```
+int dely = 0;
+int delayVar = -10;
+int messagePrint = 0;
+int LED = 9;             //
+int buttonPin = 7;
+int buttonState = 0;
+```
+
+Second, we move on to our ```void setup```. Here, we just set some pins, and start the serial monitor. Make sure to use the LED and buttonPin variables, and change the 2 LED code to only 1. Additionally, use the buttonPin as an ```INPUT```, and **not** an ```OUTPUT```. LED is still an ```INPUT``` though.
+
+```
+void setup() {
+  pinMode(LED, OUTPUT);
+  pinMode(buttonPin, INPUT);
+  Serial.begin(9600);
+}
+```
 
 ### Evidence
 [Link to the online code!](https://create.arduino.cc/editor/hheisig51/1021ade9-b6f5-4384-9aeb-5858a6593207/preview)
