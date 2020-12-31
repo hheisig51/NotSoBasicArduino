@@ -157,7 +157,7 @@ When in doubt, look it up, and figure it out.
 
 ### Description & Code
 
-Alright, let's set up a button! We will use this button to trigger a variable blink (as seen [above](#Variable_Blink), and reset it when the button is released.
+Alright, let's set up a button! We will use this button to trigger a variable blink (as seen [above](#Variable_Blink)), and reset it when the button is released.
 
 
 
