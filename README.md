@@ -172,7 +172,21 @@ int buttonPin = 7;
 int buttonState = 0;
 ```
 
-Second, we move on to our ```void setup```. Here, we just set some pins, and start the serial monitor. Make sure to use the LED and buttonPin variables, and change the 2 LED code to only 1. Additionally, use the buttonPin as an ```INPUT```, and **not** an ```OUTPUT```. LED is still an ```INPUT``` though.
+Second, we're on to our wiring, just to use these pins. Wiring is pretty simple. You wire an LED like usual, and just add this new button.
+
+**Actually, let's go over the button.**
+
+So, a button basically has a tiny little circuit inside of it, like this:
+
+<img src="https://github.com/hheisig51/NotSoBasicArduino/blob/main/Images/pushButton.png?raw=true" width=250></img>
+
+When you press the button, it connects those two wires/'lines', and it a current goes through. This current, or lack thereof, can be measured (we're doing this with the 7th pin on our board.), and used to trigger other things (like a variable blink :wink:).
+
+<img src="https://github.com/hheisig51/NotSoBasicArduino/blob/main/Images/pushedButton.png?raw=true" width=250></img>
+
+This image above is a representation of what a button looks like pressed. The electricity flows through it, then we measure it. The wiring for it is included below at the [Image](#images-2) section below.
+ 
+**Now that our wiring is down**, we move on to our ```void setup```. Here, we just set some pins, and start the serial monitor. Make sure to use the LED and buttonPin variables, and change the 2 LED code to only 1. Additionally, use the buttonPin as an ```INPUT```, and **not** an ```OUTPUT```. LED is still an ```INPUT``` though.
 
 ```
 void setup() {
