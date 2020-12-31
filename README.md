@@ -156,14 +156,10 @@ When in doubt, look it up, and figure it out.
 ## Button
 
 ### Description & Code
-Description goes here
 
-Here's how you make code look like code:
+Alright, let's set up a button! We will use this button to trigger a variable blink (as seen [above](#Variable_Blink), and reset it when the button is released.
 
-```C++
-Code goes here
-```
-Talk about how the code works, here....
+
 
 ### Evidence
 [Link to the online code!](https://create.arduino.cc/editor/hheisig51/1021ade9-b6f5-4384-9aeb-5858a6593207/preview)
