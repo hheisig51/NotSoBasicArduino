@@ -248,7 +248,9 @@ For the full code, check below at the [evidence tab](#evidence-2). (The one that
 <img src="https://github.com/hheisig51/NotSoBasicArduino/blob/main/Images/Button.png?raw=true" width=500></img>
 
 ### Reflection
-Alright, here's the part where I admit I barely know what I'm doing. So, I 
+Alright, here's the part where I admit I barely know what I'm doing (I do, I did this. So, I have to say that toggles are extremely useful. The ```messagePrint``` and ```buttonState``` variable were extremely useful in setting things up. You can even set it to work with multiple outputs, like 0, 1, 2, and 3 instead of 0 and 1. But, creating paths to these different switches, nesting them in `if` and `else` statements just can almost simplify everything into those layers of 0 or 1. 
+
+Some people like to set everything up to be visually shorter, albeit more complicated. Personally, my cup of tea is the layers. Take it as you will! Take care.
 
 ## HelloFunctions
 
