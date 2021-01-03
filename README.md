@@ -248,6 +248,7 @@ For the full code, check below at the [evidence tab](#evidence-2). (The one that
 <img src="https://github.com/hheisig51/NotSoBasicArduino/blob/main/Images/Button.png?raw=true" width=500></img>
 
 ### Reflection
+Alright, here's the part where I admit I barely know what I'm doing. So, I 
 
 ## HelloFunctions
 
