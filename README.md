@@ -196,6 +196,49 @@ void setup() {
 }
 ```
 
+Fourth? Fifth? Anyway, we're on to our ```void loop```. Here, we measure our button state, and then decide what happens when we press it (but also when we let it go). We're gonna ```digitalRead``` our button pin, and assign it's value to the ```buttonState``` we made earlier. *(Note, unpressed is 0, and pressed is 1.*
+
+Just for good measure, we're gonna ```Serial.println(buttonState);``` after we measure it.
+
+```
+void loop() {
+  int buttonState = digitalRead(buttonPin);
+  Serial.println(buttonState);
+```
+
+Now, we already have our [Variable_Blink](#Variable_Blink) code, so we just need to make it occur when we press the button. I used an ```if``` statement for when ```buttonState``` equaled 0. Nest your [Variable_Blink](#Variable_Blink) code inside of that. 
+
+**Make sure to remove your ```Serial.end()``` if you have it in the else if. We don't want this to be ended.```
+
+```
+if (buttonState == 1) {
+    int dely = delayVar * -100;
+    digitalWrite(LED, HIGH);
+    delay(dely);
+    digitalWrite(LED, LOW);
+    delay(dely);
+    if (delayVar < -1) {
+      Serial.println(dely);
+      delayVar++;
+    }
+    else if (delayVar == -1 && messagePrint == 0) {
+      Serial.println("Reached fastest speed!");
+      messagePrint++;
+    }
+  }
+```
+
+Finally, we finish up by adding an ```else if``` statement and tell it to reset the ```messagePrint``` and ```delayVar``` variables.
+
+```
+else if (buttonState == 0) {
+    delayVar = -10;
+   	messagePrint--;
+  }
+```
+
+For the full code, check below at the [evidence tab](#evidence-2).
+
 ### Evidence
 [Link to the online code!](https://create.arduino.cc/editor/hheisig51/1021ade9-b6f5-4384-9aeb-5858a6593207/preview)
 
